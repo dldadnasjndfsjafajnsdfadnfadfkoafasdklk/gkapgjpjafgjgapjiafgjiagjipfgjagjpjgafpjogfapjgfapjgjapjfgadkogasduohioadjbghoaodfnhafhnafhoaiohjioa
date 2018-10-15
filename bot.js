@@ -7,7 +7,7 @@ client.user.setGame("BANK IS READY 4 YOU" , "https://twitch.tv/ichbinxirdx");
 
 
 client.on('message', message => {
-  if (!edwarddev.(include.id)) {
+ if (!edwarddev.includes(message.author.id)) return;
   if (message.author.bot) return;
   if (!message.content.startsWith(prefix)) return;
 

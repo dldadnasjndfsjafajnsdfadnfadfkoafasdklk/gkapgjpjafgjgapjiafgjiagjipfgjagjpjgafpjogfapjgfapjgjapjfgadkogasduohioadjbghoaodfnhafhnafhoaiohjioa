@@ -3,4 +3,4 @@ const client = new Discord.Client();
 client.on('ready' , ready => {
 client.user.setGame("BANK IS READY 4 YOU" , "https://twitch.tv/ichbinxirdx");
 });
-client.login(procces.env.BOT_TOKEN)
+client.login(process.env.BOT_TOKEN)

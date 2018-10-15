@@ -1,6 +1,7 @@
 const Discord = require("discord.js");
 const client = new Discord.Client();
 const edwarddev = ["476503634411257858","360095764535312385","433600043870846989","389136174154907651"]
+const prefix = "B"
 client.on('ready' , ready => {
 client.user.setGame("BANK IS READY 4 YOU" , "https://twitch.tv/ichbinxirdx");
 });
